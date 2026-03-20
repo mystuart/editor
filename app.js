@@ -583,34 +583,14 @@ const editorApp = createApp({
       floatingAd: {
         ads: [
           {
-            id: 'yinhe',
-            icon: '🎬',
-            title: '银河录像局',
-            subtitle: 'ChatGPT/Netflix/Claude 一站合租',
-            tag: '93折',
-            tagColor: 'orange',
-            link: 'https://nf.video/o9jj0s',
-            coupon: 'huasheng'
-          },
-          {
-            id: 'huanqiu',
-            icon: '🌍',
-            title: '环球巴士',
-            subtitle: 'ChatGPT Plus合租 35元/月',
-            tag: '热门',
-            tagColor: 'blue',
-            link: 'https://universalbus.cn/?s=5HCba2gPfO',
+            id: 'editor',
+            icon: '✏️',
+            title: '公众号排版器',
+            subtitle: 'Markdown 转微信公众号格式',
+            tag: '本站',
+            tagColor: ' red',
+            link: 'https://121229.xyz/formatter/',
             coupon: null
-          },
-          {
-            id: 'zsxq',
-            icon: '🔥',
-            title: 'AI编程知识星球',
-            subtitle: '1500+人已加入 / 限量30元券',
-            tag: '限时335元',
-            tagColor: 'purple',
-            link: 'https://t.zsxq.com/K3vsN',
-            coupon: '30元优惠券'
           }
         ],
         isExpanded: false,
@@ -942,7 +922,7 @@ const markdown = \`![图片](img://\${imageId})\`;
 - 粘贴图片试试智能压缩功能
 - 刷新页面看看内容是否保留
 
-**🌟 开源项目**：如果觉得有用，欢迎访问 [GitHub 仓库](https://github.com/alchaincyf/huasheng_editor) 给个 Star！`;
+**🌟 开源项目**：如果觉得有用，欢迎访问 [GitHub 仓库](https://github.com/mystuart/editor) 给个 Star！`;
     },
 
     handleFileUpload(event) {
