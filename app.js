@@ -588,8 +588,28 @@ const editorApp = createApp({
             title: '公众号排版器',
             subtitle: 'Markdown 转微信公众号格式',
             tag: '本站',
-            tagColor: ' red',
+            tagColor: 'red',
             link: 'https://121229.xyz/formatter/',
+            coupon: null
+          },
+          {
+            id: 'minimax',
+            icon: '🔮',
+            title: 'MiniMax Token Plan',
+            subtitle: '顶级大模型 9 折优惠',
+            tag: '折扣',
+            tagColor: 'orange',
+            link: 'https://platform.minimaxi.com/subscribe/token-plan?code=CgH8IUE09w&source=link',
+            coupon: null
+          },
+          {
+            id: 'glm',
+            icon: '🤖',
+            title: 'GLM Coding Plan',
+            subtitle: '下单立减 5%',
+            tag: '优惠',
+            tagColor: 'blue',
+            link: 'https://www.bigmodel.cn/glm-coding?ic=JS4WEM1NCG',
             coupon: null
           }
         ],
